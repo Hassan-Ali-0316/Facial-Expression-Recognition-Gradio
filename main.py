@@ -89,6 +89,5 @@ history = model.fit(
     validation_steps=test_set.n // test_set.batch_size,
     callbacks=cbl
 )
-
 model.save('model.keras')
 print('hello')
